@@ -1,0 +1,93 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+th, td {
+     padding: 5px;
+     text-align: left;
+
+}
+.center {
+    text-align:center;
+}
+
+.hide {
+    display: none
+}
+
+.red {
+    background-color: red;
+}
+
+.LightGreen {
+    background-color: LightGreen;
+}
+
+.DeepSkyBLue{
+    background-color: DeepSkyBLue;
+}
+
+.Orange{
+    background-color: Orange;
+}
+.dem{
+    border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 500px;
+    padding-left: 80px;
+    margin-top: 40px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+}
+
+.tabglo{
+	
+	background-color: lightgrey;
+    width: 300px;
+    border: 10px solid green;
+    padding: 25px;
+    margin: 25px;
+    margin-top: 40px;
+    margin-right: 440px;
+    margin-bottom: 50px;
+    margin-left: 455px;
+}
+
+
+#nb_elemnts{
+	border: 1px solid black;
+    background-color: Pink;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+}
+
+.com{
+	border: 1px solid black;
+    background-color: LightGreen;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+}
+
+#menu{
+    border: 1px solid black;
+    background-color: Pink;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+}
+
