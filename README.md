@@ -1,2 +1,2 @@
 # application-of-sorting-algorithms
-une application web qui permet de détailler les algorithmes de tri par insertion et par selection avec une agréable interface graphique .
+a web application that allows to detail insertion and selection sorting algorithms with a nice graphic interface .
