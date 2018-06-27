@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Principe de tri par selection</title>
+		<link rel="stylesheet" type="text/css" href="css/tri_insert.css">
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/tri_select.js"></script>
+		
+    </head>
+    <body>
+        <div id="nb_elemnts">
+	        <p class="center">
+	            Veuiller choisir le nombre des &eacutel&eacutements du tableau (nombre entre 2 et 20).
+	        </p>
+	        <!--choix de nombre d'element-->
+	     	<form class="center" name="nombre">
+	            <input id="input_nb" type="number" class="center" name="nombre_saisie" min="2" max="20">
+	            <button type="button" onclick="display_cases()" class="center">Valider</button>
+	        </form>
+        </div>
+
+        <div id="commencer">
+	        <p id="click_commencer" class="center"></p>
+	        <div  id="tableau_a_trier" class="center">
+	            <!-- les element du tableau vont etre ajouter via le javascript -->
+	        </div>
+	        <p> </p>
+	        <!--boutton commencer-->
+			<form  class="center" >
+	    		<button type="button" onclick="trie_select();this.disabled=true;" class="center">Commencer</button>
+			</form>
+		</div>
+		<p> </p>
+		
+		
+		<table class="hide etapeTemplate" >
+			<tr>
+				<td class="itteration" style="text-align:center"> </td>
+				<td> Partie tri&eacutee</td>
+				<td> Partie non tri&eacutee</td>
+			</tr>
+
+			<tr>
+				<td>Tableau &agrave tri&eacutee</td>
+				<td class="tab_initial" colspan="2"> </td>
+			</tr>
+
+			<tr>
+				<td>Avant  </td>
+				<td class="tab_triee"></td>
+				<td class="tab_nn_triee"></td>
+			</tr>
+
+			<tr>
+				<td> El&eacutement s&eacutelectionn&eacute (El&eacutement minimum)</td>
+				<td colspan="2" class="element"></td>
+			</tr>
+			
+			<tr>
+				<td> Dernier &eacutel&eacutement du partie tri&eacutee </td>
+				<td colspan="2" class="elementder"></td>
+			</tr>
+
+			<tr>
+				<td>Apres l'&eacutechange avec le dernier &eacutel&eacutement (*)</td>
+				<td class="tab_triee_apres"></td>
+				<td class="tab_non_triee_apres"></td>
+			</tr>
+			
+			<tr>
+				<td>R&egravesultat</td>
+				<td colspan="2" class="resultat"></td>
+			</tr>
+		</table>
+		
+		
+		
+		<div id="tableau_global">
+		<!--le tableau global-->
+		
+		<p id="tableau_saisi_text" class="center"></p>
+		<table>
+			<tr id=tableau_saisi_tab >
+			</tr>
+		</table>
+
+		</div>
+
+		<div id="steps">
+
+		</div>
+		<p id="nb"></p>
+		
+		
+
+    </body>
+</html> 
+
